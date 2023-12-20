@@ -70,15 +70,78 @@
     text-align: center;
     margin-top: 50px;
 }
+/*section items*/
+.section{
+    background-color:rgb(240, 236, 236) ;
+}
 
 .section-1{
-    
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
 }
 .course-1{
-   background-color: aqua;
+   background-color: white;
+   border-radius: 20px;
+}
+.course-2{
+    padding: 20px;
+    
 }
 
+.course-3{
+    font-size: 25px;
+    font-weight: 10px;
+    padding-left: 15px;
+    
+
+}
+.course-4{
+    font-size: 18px;
+    font-weight: 10px;
+    color: rgb(116, 116, 153);
+    padding-left: 15px;
+    
+
+}
+.course-5{
+    font-size: 18px;
+    font-weight: 10px;
+    color: rgb(116, 116, 153);
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-solid{
+    color: gold;
+    font-size: 15px;
+    padding-left: 15px;   
+}
+
+
+/*meta*/
+
+.meta-course{
+    display: flex;
+    padding: 80px;
+    gap: 80px;
+}
+.meta-course-1{
+    font-size: 40px;
+    font-weight: 10px;
+}
+.meta-course-2{
+    font-size: 20px;
+    font-weight: 10px;
+    color: rgb(105, 102, 102);
+}
+.meta-course-3{
+    font-size: 20px;
+    font-weight: 10px;
+    padding:5px 20px 5px 20px;
+    color: white;
+    background-color: rgb(219, 14, 116);
+    border: 1px solid rgb(219, 14, 116);
+}
 
