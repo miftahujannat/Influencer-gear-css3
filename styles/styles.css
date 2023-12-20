@@ -145,3 +145,19 @@
     border: 1px solid rgb(219, 14, 116);
 }
 
+.set-1{
+    text-align: center;
+    background-color: rgb(2, 2, 37);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.set-2{
+    color: white;
+    font-size: 30px;
+}
+.set-3{
+    color: white;
+}
+.set-5{
+    gap: 50px;
+}
